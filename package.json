@@ -1,0 +1,11 @@
+{
+  "name": "weaveguard-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run dev --prefix frontend",
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "backend": "cd backend && python -m uvicorn main:app --host 127.0.0.1 --port 8001 --reload"
+  }
+}
