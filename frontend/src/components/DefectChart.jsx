@@ -34,7 +34,7 @@ export default function DefectChart({ type = 'severity', data = [] }) {
   if (!data || data.length === 0) {
     return (
       <div className="h-64 flex items-center justify-center text-slate-500 text-xs">
-        No defect analytics data available.
+        No defect analytics data available
       </div>
     );
   }
